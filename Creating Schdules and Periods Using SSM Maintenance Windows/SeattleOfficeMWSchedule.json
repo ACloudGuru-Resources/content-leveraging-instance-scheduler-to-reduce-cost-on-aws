@@ -1,0 +1,20 @@
+{
+  "type": {
+    "S": "schedule"
+  },
+  "name": {
+    "S": "Seattle-Office-MW-Schedule"
+  },
+  "description": {
+    "S": "Office hours in Seattle (Pacific)"
+  },
+  "ssm_maintenance_window": {
+    "S": "Seattle-Office-MW"
+  },
+  "timezone": {
+    "S": "US/Pacific"
+  },
+  "use_maintenance_window": {
+    "BOOL": true
+  }
+}
